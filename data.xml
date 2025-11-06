@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="1">
+        <name>Web Development</name>
+        <credits>4</credits>
+        <instructor>Alice Brown</instructor>
+    </course>
+    <course id="2">
+        <name>Data Structures</name>
+        <credits>3</credits>
+        <instructor>David Green</instructor>
+    </course>
+    <course id="3">
+        <name>Networking Basics</name>
+        <credits>3</credits>
+        <instructor>Emily Stone</instructor>
+    </course>
+    <course id="4">
+        <name>Machine Learning</name>
+        <credits>4</credits>
+        <instructor>Michael Lee</instructor>
+    </course>
+</courses>
