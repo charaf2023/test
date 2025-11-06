@@ -18,3 +18,27 @@
     background-color: #000;
     color: #fff;
 }
+
+
+/* ===== IMAGES PAGE ===== */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1cm; /* space between images */
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover; /* keeps image proportion centered */
+    border: 3px solid #000; /* black frame */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Slight zoom on hover */
+.gallery img:hover {
+    transform: scale(1.05);
+}
